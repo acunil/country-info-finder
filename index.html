@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="libs/Styles/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucian's Country Info Finder</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="flexbox" id="results-grid">
+        <h1>Country Info Finder</h1>
+        <div id="menus" class="flexbox">
+          <p class="caption">Select country</p>
+          <div id="choose-country">
+            <select>
+              <option value="GB">Great Britain</option>
+              <option value="US">USA</option>
+              <option value="FR">France</option>
+              <option value="DE">Germany</option>
+            </select>
+          </div>
+          <div id="choose-lang">
+            <select>
+              <option value="en">English</option>
+              <option value="fr">Francais</option>
+              <option value="de">Deutsch</option>
+            </select>
+          </div>
+          <p class="caption">Output language</p>
+        </div>
+        <div class="label" id="continent-label">Continent</div>
+        <div class="result" id="continent-result"></div>
+        <div class="label" id="population-label">Population</div>
+        <div class="result" id="population-result"></div>
+        <div class="label" id="capital-label">Capital</div>
+        <div class="result" id="capital-result"></div>
+        <div class="label" id="languages-label">Languages</div>
+        <div class="result" id="languages-result"></div>
+        <div class="label" id="area-label">Area km<sup>2</sup></div>
+        <div class="result" id="area-result"></div>
+        <button id="submit">Go</button>
+      </div>
+    </div>
+    <!--end of main-->
+
+    <script
+      type="application/javascript"
+      src="libs/Scripts/jquery3.5.1.js"
+    ></script>
+    <script type="application/javascript" src="libs/Scripts/main.js"></script>
+  </body>
+</html>
